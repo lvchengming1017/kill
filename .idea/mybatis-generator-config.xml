@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisGeneratorConfiguration">
+    <option name="credentials">
+      <map>
+        <entry key="jdbc:mysql://localhost:3306/db_second?serverTimezone=UTC">
+          <value>
+            <Credential>
+              <option name="username" value="root" />
+            </Credential>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableConfigs">
+      <map>
+        <entry key="item">
+          <value>
+            <TableConfig>
+              <option name="basePackage" value="com.debug.kill.model" />
+              <option name="comment" value="true" />
+              <option name="domainName" value="Item" />
+              <option name="domainPackage" value="com.debug.kill.model.mapper" />
+              <option name="exampleName" value="ItemExample" />
+              <option name="examplePackage" value="com.debug.kill.model" />
+              <option name="examplePostfix" value="Example" />
+              <option name="mapperName" value="ItemMapper" />
+              <option name="mapperPackage" value="com.debug.kill.model" />
+              <option name="mapperPostfix" value="Mapper" />
+              <option name="moduleRootPath" value="$PROJECT_DIR$" />
+              <option name="name" value="item" />
+              <option name="primaryKey" value="id" />
+              <option name="resourcePath" value="src/main/resources" />
+              <option name="sourcePath" value="src/main/java" />
+              <option name="tableName" value="item" />
+              <option name="useExample" value="true" />
+              <option name="xmlPackage" value="mapper" />
+            </TableConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
