@@ -54,7 +54,7 @@ public class UserController {
            errorMsg=e.getMessage();
            modelMap.addAttribute("userName",userName);
        }catch (Exception e){
-           errorMsg="用户登录异常，请联系管理员!";
+           errorMsg="用户登录异常，请联系管理员！!";
            e.printStackTrace();
        }
        if (StringUtils.isBlank(errorMsg)){
